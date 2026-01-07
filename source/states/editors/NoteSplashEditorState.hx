@@ -335,7 +335,7 @@ class NoteSplashEditorState extends MusicBeatState
         ui.add(reloadButton);
 
         ui.add(new FlxText(20, 40, "Scale:"));
-        scaleNumericStepper = new PsychUINumericStepper(20, 57.5, 0.1, 1, 0, 4, 2, 60);
+        scaleNumericStepper = new PsychUINumericStepper(20, 57.5, 0.1, 1, 0, 10, 2, 60);
         ui.add(scaleNumericStepper);
 
         scaleNumericStepper.value = config != null ? config.scale : 1;
